@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display:inline-block;
+        margin:150px auto;
+        background-color: white;
+        margin-left: 100px;
+         display: flex;
+        gap:8px;
+    }
+   
+    a:link{
+        text-decoration: none;
+        font-size: 24px;
+        color:black;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+    .dot{
+       display: flex;
+       justify-content: end;
+       align-items: end;
+    }
+    a:hover{
+        background-color: #087f5b;
+        border-radius:50% ;
+        color:white;
+    }
+    .icon{
+        stroke:#122b24;
+        height: 24px;      
+        border-radius:3px solid #087f5b;
+    }
+    button{
+        border-radius: 50%;
+        height:48px;
+        width: 48px;
+
+    }
+    button:hover .icon{
+        background-color: #087f5b;
+        stroke:white;
+    }
+</style>
+<body>
+    <div class="container">
+        <button>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+              </svg>              
+        </button>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <span class="dot">...</span>
+        <a href="#">23</a>
+        <button>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>                
+        </button>
+    </div>
+</div>
+</body>
+</html>

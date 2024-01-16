@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'inter', sans-serif;
+        color: #343a40;
+        margin-top: 50px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        width: 700px;
+        margin-left: 100px;
+        gap: 16px;
+        padding: 20px;
+        box-shadow: 0 0 32px #c2c4c5;
+        margin-bottom: 24px;
+    }
+
+    .icon {
+        stroke: #087f5b;
+        height: 24px;
+        width: 24px;
+        margin-right: 10px;
+    }
+
+    .number {
+        color: #878b8e;
+    }
+
+    .heading {
+        letter-spacing: -1px;
+        
+    }
+    .second h2{
+        margin-bottom: 24px;
+        color:#087f5b;
+    }
+    .second p{
+        line-height: 1.6;
+        margin-bottom: 16px;
+        font-weight: bold;
+    }
+    .second ul{
+        margin-left:16px;
+    }
+    .second li{
+        margin-bottom: 8px;
+    }
+    .con2{
+        border-top:4px solid #087f5b;
+    }
+    .color{
+        color:#087f5b;
+    }
+</style>
+
+<body>
+    <div class="accordorin">
+        <div class="container">
+            <h2 class="number">01</h2>
+            <h2 class="heading">Where are these chairs assembled?</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+        </div>
+        <div class="container con2">
+            <h2 class="number color">02</h2>
+            <div class="second">
+                <h2 class="heading">How long do i have to return my chair?</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure quam velit, numquam accusantium
+                    ratione voluptatem ex et quia labore, maiores, repudiandae minima. Optio.</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dolorem!</li>
+                        <li >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dolorem!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dolorem!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dolorem!</li>
+                    </ul>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+        </div>
+        <div class="container">
+            <h2 class="number">03</h2>
+            <h2 class="heading">Do you ship to the countries outside EU?</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+        </div>
+    </div>
+</body>
+
+</html>
